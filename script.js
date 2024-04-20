@@ -97,7 +97,7 @@ function animate(scene, canvasId, engine) {
     }
     scene.render();
     if (window.fpsTrackerActive && loadedModels == 12 && dispatchPossibleFlags[canvasId]) {
-      const fpsEvent = new CustomEvent('logFPS', { detail: { name: canvasId, value: getFPS() } });
+      const fpsEvent = new CustomEvent('logFPS', { detail: { value: getFPS() } });
       window.dispatchEvent(fpsEvent);
       dispatchPossibleFlags[canvasId] = false;
       setTimeout(() => {
