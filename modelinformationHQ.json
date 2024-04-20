@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Doodles",
+    "path": "modelsHQ/doodles.glb",
+    "references": [
+      {
+        "text": "Doodles",
+        "href": "https://sketchfab.com/3d-models/rtfktchallenge-doodles-rtfkt-rtfkt-bb7da6cc59894a95b8c302937711e174"
+      },
+      {
+        "text": "Eduardo Kuhn",
+        "href": "https://sketchfab.com/eduardokuhn"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pinky Fashion",
+    "path": "modelsHQ/pinky-fashion.glb",
+    "references": [
+      {
+        "text": "Pinky Fashion",
+        "href": "https://sketchfab.com/3d-models/rtfktchallenge-pinky-fashion-by-franz-vega-317ac3f788fc4706af150ae40247a3eb"
+      },
+      {
+        "text": "Franz_vc",
+        "href": "https://sketchfab.com/franz_vc"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Nostalgia",
+    "path": "modelsHQ/nostalgia.glb",
+    "references": [
+      {
+        "text": "Nostalgia",
+        "href": "https://sketchfab.com/3d-models/updated-90s-nostalgia-rtfktchallenge-rtfkt-e756980d5067488d9b0284ecf6d6797c"
+      },
+      {
+        "text": "Eduardo Kuhn",
+        "href": "https://sketchfab.com/eduardokuhn"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bowser",
+    "path": "modelsHQ/bowser.glb",
+    "references": [
+      {
+        "text": "Bowser",
+        "href": "https://sketchfab.com/3d-models/rtfkt-challenge-bowser-0054d32a0f2a4a5d947a215b6376bdc5"
+      },
+      {
+        "text": "Navirobot",
+        "href": "https://sketchfab.com/Navirobot"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Class-IC",
+    "path": "modelsHQ/class-ic.glb",
+    "references": [
+      {
+        "text": "Class-IC",
+        "href": "https://sketchfab.com/3d-models/rtfktchallenge-class-ic-rtfkt-b9cfddf111e649598a4f217a8d5c38e2"
+      },
+      {
+        "text": "Akinaro",
+        "href": "https://sketchfab.com/Akinaro"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Batik",
+    "path": "modelsHQ/batik.glb",
+    "references": [
+      {
+        "text": "Batik",
+        "href": "https://sketchfab.com/3d-models/rtfktchallenge-batik-8123896c171b44349a68f7187139cfe2"
+      },
+      {
+        "text": "Navirobot",  
+        "href": "https://sketchfab.com/Navirobot"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Aliens",
+    "path": "modelsHQ/aliens.glb",
+    "references": [
+      {
+        "text": "Aliens",
+        "href": "https://sketchfab.com/3d-models/aliens-ts-rtfktchallenge-one-83b5b3154b3c434986299cd88b6d8c34"
+      },
+      {
+        "text": "Mamba_Negra",
+        "href": "https://sketchfab.com/Mamba_Negra"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cardboard",
+    "path": "modelsHQ/cardboard.glb",
+    "references": [
+      {
+        "text": "Cardboard",
+        "href": "https://sketchfab.com/3d-models/rtfktchallenge-cardboard-theme-52e78ab893144ac08666184f0ce60e4f"
+      },
+      {
+        "text": "Bert Gedik",
+        "href": "https://sketchfab.com/berkgedik"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Flower",
+    "path": "modelsHQ/flower.glb",
+    "references": [
+      {
+        "text": "Flower",
+        "href": "https://sketchfab.com/3d-models/rtfkt-x-swear-challenge-xi-flower-deb7eda095174dd4b2a420ca15f9ca26"
+      },
+      {
+        "text": "Conne",
+        "href": "https://sketchfab.com/connn3"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Belz",
+    "path": "modelsHQ/belzs.glb",
+    "references": [
+      {
+        "text": "Belz",
+        "href": "https://sketchfab.com/3d-models/belzs-rtfkt-challenge-61902b403ea4449f95ad3777ccd76c9b"
+      },
+      {
+        "text": "Belzar Sirus",
+        "href": "https://sketchfab.com/belzar.sirus"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Golden",
+    "path": "modelsHQ/golden.glb",
+    "references": [
+      {
+        "text": "Golden",
+        "href": "https://sketchfab.com/3d-models/rtfktchallenge-golden-by-franz-vega-0662622496ba4c4f95e5edac088cc272"
+      },
+      {
+        "text": "Franz_vc",
+        "href": "https://sketchfab.com/franz_vc"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Paul Theme",
+    "path": "modelsHQ/paul-theme.glb",
+    "references": [
+      {
+        "text": "paul-theme",
+        "href": "https://sketchfab.com/3d-models/rtfktchallenge-paul-theme-tekken-70359e9596354126b3fa791d342276ab"
+      },
+      {
+        "text": "Bert Gedik",
+        "href": "https://sketchfab.com/berkgedik"
+      } 
+    ]
+  }
+]

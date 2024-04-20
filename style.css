@@ -1,0 +1,91 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, Lucida Grande, sans-serif;
+  text-transform: uppercase;
+}
+
+h1, h2, text, span, a {
+  color: white;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 100vh;
+}
+
+#logo {
+  width: 260px;
+}
+
+#sidebar, #content, .canvas-container, .product-canvas-container {
+  margin: 20px;
+}
+
+.canvas-container, .product-canvas-wrapper {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
+.canvas-container {
+  grid-template-columns: repeat(4, 700px);
+}
+
+.canvas-container canvas, .product-canvas {
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.product-canvas-container {
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.product-canvas-wrapper {
+  grid-template-columns: 800px 300px;
+  grid-template-rows: 1fr 100px;
+}
+
+.product-reference-text {
+  grid-row: 2;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+.canvas-text, .product-canvas-text {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
+.description {
+  text-align: left;
+}
+
+.menu-buttons {
+  text-align: center;
+}
+
+.menu-buttons button {
+  background-color: #000;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  transition: background-color 0.5s;
+}
+
+.menu-buttons button:hover {
+  background-color: #FFF;
+  color: #000;
+}
