@@ -42,9 +42,10 @@ function createCanvases(model, index) {
   initializeBabylon(canvasId, model.path);
 }
 
-function initializeBabylon(canvasId, modelPath) {
+async function initializeBabylon(canvasId, modelPath) {
   const canvas = document.getElementById(canvasId);
-  const engine = new BABYLON.Engine(canvas, true);
+  const engine = new BABYLON.WebGPUEngine(canvas);
+  await engine.initAsync();
   const scene = new BABYLON.Scene(engine);
   const camera = new BABYLON.UniversalCamera("UniversalCamera", new BABYLON.Vector3(0, 5, -10), scene);
   scene.clearColor = new BABYLON.Color3.FromHexString('#cccccc');
