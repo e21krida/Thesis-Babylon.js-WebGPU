@@ -66,9 +66,10 @@ function generateCanvas(modelName) {
     });
 }
 
-function initializeBabylon(modelPath) {
+async function initializeBabylon(modelPath) {
   const canvas = document.getElementById("canvas1");
-  const engine = new BABYLON.Engine(canvas, true);
+  const engine = new BABYLON.WebGPUEngine(canvas);
+  await engine.initAsync();
   const scene = new BABYLON.Scene(engine);
   scene.clearColor = new BABYLON.Color3.FromHexString('#cccccc');
   const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(0, 1, 0), scene);
