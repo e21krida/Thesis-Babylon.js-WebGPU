@@ -86,6 +86,7 @@ function initializeModel(modelPath, scene, engine) {
       model.rotation.x = -Math.PI / 2;
       model.rotation.y = -Math.PI / 2;
       animate(scene, model, engine);
+      window.dispatchEvent(new CustomEvent('allModelsLoaded'));
     }
   })
 }
